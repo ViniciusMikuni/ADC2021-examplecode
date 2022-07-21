@@ -43,5 +43,5 @@ def make_feature_plots(true, prediction, xlabel, particle, bins, density, ranges
     plt.show()
     
 def mse_loss(true, prediction):
-    loss = tf.reduce_mean(tf.math.square(true - prediction),axis=-1)
+    loss = np.mean(np.square(true - prediction),axis=-1)
     return loss
