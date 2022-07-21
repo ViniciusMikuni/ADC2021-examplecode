@@ -1,25 +1,11 @@
-# ADC2021: Unsupervised New Physics detection at 40 MHz
+# This repository is a fork of the original [ADC2021 data challenge on anomaly detection at 40 MHz](https://mpp-hep.github.io/ADC2021/). This tutorial was modified to best suit the [US ATLAS Machine Learning Training Event 2022](https://indico.cern.ch/event/1169324/)
 
-This repository contains code examples for analysing the [Anomaly Detection
-Data Challenge](https://mpp-hep.github.io/ADC2021/) datasets.
+This tutorial will cover:
 
-In this repository you will find code examples for the following:
-
-1. How to load background dataset
-2. Examples of define model architectures for anomaly detection
+2. Examples of model architectures using autoencoders for anomaly detection
 3. How to train the model
 4. Compute the model predictions on background data
 5. Compute the model predictions on signal (anomalies)
 6. Evaluate model's performance using 2 different techniques
-7. Evaluate the number of floating point operations of the model
-
-This information can be found in scripts:
-
-1. **Convolutional_AE.ipynb**: Load the data, define a convolutional autoencoder and evaluate it's performance
-2. **Dense_AE.ipynb.ipynb**: Load the data, define a fully connected dense autoencoder and evaluate it's performance
-3. **graph_vae.ipynb**: Define a graph autoencoder or graph variational autoencoder
-4. **computeFLOPs.ipynb**: Compute the number of floating point operations for a given model
-5. **create_datasets.py**: Create datasets for training/validation/testing in the HDF5 format.
-
 
 
