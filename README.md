@@ -1,4 +1,4 @@
-#Anomaly detection using autoencoder
+# Anomaly detection using autoencoder
 
 This repository is a fork of the original [ADC2021 data challenge on anomaly detection at 40 MHz](https://mpp-hep.github.io/ADC2021/). This tutorial was modified to best suit the [US ATLAS Machine Learning Training Event 2022](https://indico.cern.ch/event/1169324/)
 
