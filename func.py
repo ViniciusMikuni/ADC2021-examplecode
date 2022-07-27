@@ -45,3 +45,26 @@ def make_feature_plots(true, prediction, xlabel, particle, bins, density, ranges
 def mse_loss(true, prediction):
     loss = np.mean(np.square(true - prediction),axis=-1)
     return loss
+
+
+def SetStyle():
+    from matplotlib import rc
+    rc('text', usetex=True)
+
+    import matplotlib as mpl
+    rc('font', family='serif')
+    rc('font', size=22)
+    rc('xtick', labelsize=15)
+    rc('ytick', labelsize=15)
+    rc('legend', fontsize=15)
+
+    # #
+
+    #mpl.rcParams.update({'legend.fontsize': 18})
+    mpl.rcParams['text.usetex'] = False
+    mpl.rcParams.update({'axes.labelsize': 18}) 
+    mpl.rcParams.update({'legend.frameon': False}) 
+    mpl.rcParams.update({'lines.linewidth': 2})
+    
+    import matplotlib.pyplot as plt
+    mpl.rcParams.update({'font.size': 19})
